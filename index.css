@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 30px;
+    gap: 60px;
+    text-align: right;
+    padding-left: 1000px;
+}
+nav ul li{
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+#Home {
+    background-image: url(./off.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+       padding-bottom: 200px;
+       
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        gap: 30px;
+        
+}
+#Home h1{
+    margin-top: 100px;
+    width: 70%;
+    font-size: 200px;
+} 
+#Home button{
+    
+    border-radius: 15px;
+    margin-top: 560px;
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: blackS;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+    background-color: rgb(5, 5, 5);
+
+}
+#Home button:hover{
+    background-color: rgb(248, 241, 241);
+    color: rgb(11, 9, 9);
+}
+hr{
+    border: solid 2PX;
+   color: black;
+}
+#About{
+    margin-bottom: 50px;
+    padding-bottom: 200px;
+
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        gap: 30px;
+        background-color: rgb(7, 6, 6);
+
+}
+
+#About h1{
+    color: aliceblue;
+    margin-top: 100px;
+    width: 70%;
+    font-size: 150px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 0;
+    margin-bottom: 250px;
+    padding-left: 30px;
+}
+#About h4{
+    color: aliceblue;
+    width: 40%;
+    font-size: 20px;
+    margin-top: 600px;
+    margin-right: 150px;
+    align-items: center;
+
+}
+#Work h1{
+    font-size: 80px;
+}
+#Work {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 200px;
+    background-color: gray;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  #Work .cader {
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 50px;
+    gap: 20px;
+  }
+  
+  #Work .cader img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  #Work .cader .caderr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    height: 350px;
+    padding: 20px;
+    border: solid 1.2px rgb(7, 7, 7);
+    border-radius: 20px;
+  }
+  
+  #Work .cader .caderr h4 {
+    font-size: larger;
+  }
